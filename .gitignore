@@ -1,0 +1,13 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Ignore the Terraform plugin directory
+.terraform/
+
+# Ignore any local .terraformrc files containing provider credentials
+.terraformrc
+
+# Ignore .terraform.lock.hcl files (Terraform 0.15 and later)
+.terraform.lock.hcl
